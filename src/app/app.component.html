@@ -1,0 +1,12 @@
+name: <input type="text" [(ngModel)]="obj.name">  level: <input type="text" [(ngModel)]="obj.level">
+<br>
+
+testName: {{testName}}
+<br>
+
+level:{{level}}
+<br>
+
+<button (click)="obj.name='OK'">单个赋值</button>
+<button (click)="obj.name='NAME'; obj.level=999">全部赋值</button>
+<button (click)="obj={name:'整体赋值NAME', level:10000, age: 10}">整体赋值</button>

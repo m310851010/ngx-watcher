@@ -1,0 +1,28 @@
+{
+  "name": "ngx-watcher",
+  "version": "1.0.0",
+  "peerDependencies": {
+    "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
+    "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
+  },
+  "description": "基于angular6实现数据变化监听的service",
+  "main": "src/public_api.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "angular6",
+    "watch data",
+    "data watcher"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:m310851010/ngx-watcher.git"
+  },
+  "bugs": {
+    "url": "https://github.com/m310851010/ngx-watcher/issues"
+  },
+  "homepage": "https://github.com/m310851010/ngx-watcher#readme",
+  "author": "m310851010",
+  "license": "Apache-2.0"
+}
