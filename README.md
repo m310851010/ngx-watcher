@@ -17,7 +17,7 @@ npm install ngx-watcher --save
 ```typescript
 @NgModule({
   ...
-  providers: [NgxWatchService],
+  providers: [NgxWatcherService],
   ...
 })
 export class AppModule { }
@@ -36,9 +36,9 @@ export class AppModule { }
    value = {}; // keyValue类型
    array = []; // 可迭代类型
  
-   constructor(private watcher: NgxWatchService) {
-     this.kvWatcher = watcher.of(this.value);
-     this.iterWatcher = watcher.ofIter(this.array);
+   constructor(private service: NgxWatcherService) {
+     this.kvWatcher = service.of(this.value);
+     this.iterWatcher = service.ofIter(this.array);
    }
  
    ngDoCheck(): void {

@@ -29,7 +29,7 @@ import {NgxIterable} from './ngx-iterable';
   value = {}; // keyValue类型
   array = []; // 可迭代类型
 
-  constructor(private watcher: NgxWatchService) {
+  constructor(private watcher: NgxWatcherService) {
     this.kvWatcher = watcher.of(this.value);
     this.iterWatcher = watcher.ofIter(this.array);
   }
@@ -49,7 +49,7 @@ import {NgxIterable} from './ngx-iterable';
   }
 }
  */
-export class NgxWatchService {
+export class NgxWatcherService {
 
   /**
    * 构造WatcherService

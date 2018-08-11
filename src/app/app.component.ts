@@ -1,5 +1,5 @@
 import {Component, DoCheck} from '@angular/core';
-import {NgxWatchService} from '../../projects/ngx-watcher/src/lib/ngx-watch.service';
+import {NgxWatcherService} from '../../projects/ngx-watcher/src/lib/ngx-watch.service';
 import {KvWatcher} from '../../projects/ngx-watcher/src/lib/kv-watcher';
 
 @Component({
@@ -12,7 +12,7 @@ export class AppComponent implements DoCheck {
   testName;
   level;
   kvWatcher: KvWatcher<string | number>;
-  constructor(private watcher: NgxWatchService) {
+  constructor(private watcher: NgxWatcherService) {
     this.kvWatcher = watcher.of(this.obj);
   }
   ngDoCheck(): void {
