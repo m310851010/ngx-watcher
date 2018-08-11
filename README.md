@@ -66,11 +66,12 @@ export class AppModule { }
 
 使用 `ng serve`启动开发服务. 然后打开浏览器输入地址`http://localhost:4200/` 即可
 
-###编译组件
+### 编译组件
 
 ```
 npm run build:lib
 ```
+生成编译后的文件在dist/ngx-watcher目录
 
 ### 运行效果
 
