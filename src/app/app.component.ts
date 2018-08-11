@@ -1,5 +1,5 @@
 import {Component, DoCheck} from '@angular/core';
-import {NgxWatcherService} from '../../projects/ngx-watcher/src/lib/ngx-watch.service';
+import {NgxWatcherService} from '../../projects/ngx-watcher/src/lib/ngx-watcher.service';
 import {KvWatcher} from '../../projects/ngx-watcher/src/lib/kv-watcher';
 
 @Component({

@@ -72,6 +72,10 @@ export class AppModule { }
 npm run build:lib
 ```
 
+### 运行效果
+
+![运行效果](https://github.com/m310851010/ngx-watcher/run.gif "运行效果")
+
 ### LICENSE
 
 Apache-2.0

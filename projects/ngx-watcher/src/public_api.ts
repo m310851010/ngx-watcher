@@ -8,4 +8,4 @@ export * from './lib/watch-change-type';
 export * from './lib/iter-watcher';
 export * from './lib/kv-watcher';
 
-export * from './lib/ngx-watch.service';
+export * from './lib/ngx-watcher.service';
