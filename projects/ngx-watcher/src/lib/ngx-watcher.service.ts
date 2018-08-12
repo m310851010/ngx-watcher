@@ -62,8 +62,6 @@ export class NgxWatcherService {
   /**
    * 创建一个Watcher对象
    * @param {V} value
-   * @param {WatchType} watchType 监听的类型,k/v数据或可迭代数据
-   * @param {TrackByFunction<V>} trackByFn 针对可迭代数据使用TrackByFunction
    * @returns {KvWatcher<V>}
    */
   of<V>(value: NgxKeyValue<V>): KvWatcher<V> {
@@ -73,7 +71,6 @@ export class NgxWatcherService {
   /**
    * 创建一个Watcher对象
    * @param {V} value
-   * @param {WatchType} watchType 监听的类型,k/v数据或可迭代数据
    * @param {TrackByFunction<V>} trackByFn 针对可迭代数据使用TrackByFunction
    * @returns {KvWatcher<V>}
    */
