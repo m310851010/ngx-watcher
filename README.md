@@ -27,6 +27,8 @@ export class AppModule { }
 ### 使用
 
 ```typescript
+ import {KvWatcher, IterWatcher, NgxWatcherService} from 'ngx-watcher';
+
  @Component({...})
   export class TestComponent implements DoCheck {
  
